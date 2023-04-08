@@ -1,0 +1,231 @@
+.web {
+}
+
+/* Banner */
+.banner {
+    padding-top: 200px;
+    padding-bottom: 130px;
+}
+
+/* Search Form */
+.search-form {
+    margin-top: -69px;
+}
+
+.search-form .search-form-body {
+    display: flex;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 32px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.search-form .search-form-body-item {
+    position: relative;
+    padding: 0 12px;
+}
+
+.search-form .search-form-body-item:first-child {
+    padding-left: 0;
+}
+
+fieldset {
+    border: 0;
+}
+
+.search-form-body-item-w33 {
+    width: 33.33333333%;
+}
+
+.search-form-body-item-w16 {
+    width: 16.66666667%;
+}
+
+.search-form label {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #2a2a2a;
+    font-weight: 500;
+}
+
+.search-form input,
+.search-form select {
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 46px;
+    border-radius: 10px;
+    border: none;
+    outline-color: var(--primary-color);
+    padding: 0 15px;
+    font-size: 15px;
+    color: #afafaf;
+}
+
+.search-form input::placeholder {
+    color: #afafaf;
+}
+
+.search-form select {
+    appearance: none;
+}
+
+.search-form i {
+    position: absolute;
+    right: 24px;
+    bottom: 14px;
+    font-size: 13px;
+}
+
+.search-form .item-btn {
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 15px;
+    color: #fff;
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 13px 30px;
+    border-radius: 10px;
+    letter-spacing: 0.5px;
+    font-weight: 550;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.search-form .item-btn:hover {
+    background: #fff;
+    color: var(--primary-color);
+}
+
+/* Our Featured  */
+.featured-container {
+    margin-top: 120px;
+}
+
+.featured-heading {
+    margin-bottom: 70px;
+}
+
+/* Main Photo & Video */
+.main-photo-video {
+    display: flex;
+    gap: 24px;
+}
+
+.main-photo-video .main-photo-video-item {
+    width: 50%;
+}
+
+.main-photo-video-item .thumb {
+    position: relative;
+    transition: all ease 0.5s;
+}
+
+.main-photo-video-item .thumb img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.thumb .thumb-top-content,
+.thumb .thumb-play-button {
+    position: absolute;
+}
+
+.thumb .thumb-top-content {
+    display: flex;
+    justify-content: space-between;
+    top: 30px;
+    left: 30px;
+    right: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px 25px;
+}
+
+.thumb .thumb-top-content h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.thumb .thumb-top-content span {
+    margin-top: 5px;
+    color: #afafaf;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.thumb .thumb-play-button {
+    opacity: 0;
+    left: calc(50% - 23px);
+    top: calc(50% - 23px);
+    text-align: center;
+    transition: all ease 0.3s;
+}
+
+.thumb .thumb-play-button a {
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    background: #fff;
+    line-height: 47px;
+    border-radius: 50%;
+}
+
+.thumb .thumb-play-button i {
+    color: var(--primary-color);
+    transform: translateX(2px);
+}
+
+.main-photo-video-item .thumb:hover .thumb-play-button {
+    opacity: 1;
+}
+
+.thumb .thumb-down-content {
+    margin: 16px 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.thumb-down-content h4 {
+    font-size: 20px;
+    color: #afafaf;
+    font-weight: 700;
+}
+
+.thumb-down-content span {
+    font-size: 15px;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+/* List Photo & Video */
+.list-photo-video {
+    margin-top: 30px;
+    display: flex;
+    gap: 24px;
+}
+
+.list-photo-video .list-photo-video-item {
+    width: 33.33333333%;
+}
+
+.list-photo-video-item .thumb {
+    position: relative;
+}
+
+.list-photo-video-item .thumb img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.list-photo-video-item .thumb:hover .thumb-play-button {
+    opacity: 1;
+}
+
+/* Current Contests */
+.contests-container {
+    margin-top: 120px;
+}
